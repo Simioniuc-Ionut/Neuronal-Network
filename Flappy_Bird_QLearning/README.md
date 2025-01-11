@@ -10,7 +10,7 @@
 ### Actor-Critic
 -https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
 
-![Flappy Bird CNN QLearning Diagram](images/images/Flappy_Bird_CNN_QLearning.drawio.png)rawio)
+![Flappy Bird CNN QLearning Diagram](images/Flappy_Bird_CNN_QLearning.drawio.png)rawio)
 
 # CNN Architecture and Training Details  
 
@@ -161,4 +161,6 @@ The **Critic Network** is responsible for evaluating the value of a given state.
 ## Optimizers  
 - **Actor Network**: Adam optimizer with a learning rate of `1e-4`.  
 - **Critic Network**: Adam optimizer with a learning rate of `1e-3`.  
-![Flappy Bird Gameplay](images/Flappy_bird_playing_video-ezgif.com-optimize.gif)
+
+## Exemple of running
+- ![Flappy Bird Gameplay](images/Flappy_bird_playing_video-ezgif.com-optimize.gif)
