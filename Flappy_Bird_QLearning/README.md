@@ -66,3 +66,61 @@ The hyperparameters used in the training process are:
 - Learning Rate: 0.001
 - Batch Size: 64
 - Number of Epochs: 10
+
+--- 
+
+# Neural Network Architecture Documentation  
+
+## Actor Network  
+The **Actor Network** is responsible for selecting actions based on the current state. It is a feedforward neural network with two hidden layers.  
+
+### **Input**  
+- **State dimension (`state_dim`)**: 12 features.  
+
+### **Layers**  
+1. **Input Layer**:  
+   - `nn.Linear(state_dim, 128)` - Linear layer with 128 neurons.  
+   - `nn.ReLU()` - ReLU activation function.  
+2. **Hidden Layer**:  
+   - `nn.Linear(128, 128)` - Linear layer with 128 neurons.  
+   - `nn.ReLU()` - ReLU activation function.  
+3. **Output Layer**:  
+   - `nn.Linear(128, action_dim)` - Linear layer producing probabilities for actions.  
+   - `nn.Softmax(dim=-1)` - Softmax activation to compute probabilities for actions.  
+
+### **Output**  
+- **Action probabilities (`action_dim`)**: 2 possible actions (`flap` or `no flap`).  
+
+---
+
+## Critic Network  
+The **Critic Network** is responsible for evaluating the value of a given state. It is also a feedforward neural network with two hidden layers.  
+
+### **Input**  
+- **State dimension (`state_dim`)**: 12 features.  
+
+### **Layers**  
+1. **Input Layer**:  
+   - `nn.Linear(state_dim, 128)` - Linear layer with 128 neurons.  
+   - `nn.ReLU()` - ReLU activation function.  
+2. **Hidden Layer**:  
+   - `nn.Linear(128, 128)` - Linear layer with 128 neurons.  
+   - `nn.ReLU()` - ReLU activation function.  
+3. **Output Layer**:  
+   - `nn.Linear(128, 1)` - Linear layer producing a scalar value representing the state's value.  
+
+### **Output**  
+- **Scalar value of the state**.  
+
+---
+
+## Initialization  
+- **State dimension (`state_dim`)**: 12 features.  
+- **Action dimension (`action_dim`)**: 2 actions (`flap` or `no flap`).  
+
+---
+
+## Optimizers  
+- **Actor Network**: Adam optimizer with a learning rate of `1e-4`.  
+- **Critic Network**: Adam optimizer with a learning rate of `1e-3`.  
+
