@@ -153,6 +153,9 @@ The **Critic Network** is responsible for evaluating the value of a given state.
 - **Actor Network**: Adam optimizer with a learning rate of `1e-4`.  
 - **Critic Network**: Adam optimizer with a learning rate of `1e-3`.  
 
+## Example of training scores
+- ![Flappy Bird Training Scores](images/exmpl1.png)
+- ![Flappy Bird Training Scores](images/exmpl2.png)
 ## Exemple of running
 - ![Flappy Bird Gameplay](images/Flappy_bird_playing_video-ezgif.com-optimize.gif)
 
