@@ -61,6 +61,7 @@ The hyperparameters used in the training process are:
 - Exploration Rate (epsilon): 1.0
 - Exploration Decay (epsilon_decay): 0.995
 - Number of Episodes (num_episodes): 100
+  
 **CNN Training Hyperparameters:**  
 - Learning Rate: 0.001
 - Batch Size: 64
