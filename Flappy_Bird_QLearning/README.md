@@ -1,6 +1,7 @@
 # Flappy Bird Q-Learning and Convolutional Neural Network (CNN)
 
 ### -Diagram of the Flappy Bird Q-Learning and CNN Architecture :
+
 ![Flappy Bird CNN QLearning Diagram](images/Flappy_Bird_CNN_QLearning.drawio.png)
 
 # CNN Architecture and Training Details  
