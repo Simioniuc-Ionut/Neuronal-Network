@@ -10,7 +10,7 @@
 ### Actor-Critic
 -https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
 
-![Flappy Bird CNN QLearning Diagram](Flappy_Bird_CNN_QLearning.drawio.png)rawio)
+![Flappy Bird CNN QLearning Diagram](images/images/Flappy_Bird_CNN_QLearning.drawio.png)rawio)
 
 # CNN Architecture Details
 ## Preprocessing/Normalization
@@ -65,3 +65,6 @@ CNN Training Hyperparameters:
 Learning Rate: 0.001
 Batch Size: 64
 Number of Epochs: 10
+
+
+![Flappy Bird Gameplay](images/Flappy_bird_playing_video-ezgif.com-optimize.gif)
