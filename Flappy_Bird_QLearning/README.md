@@ -160,6 +160,12 @@ The **Critic Network** is responsible for evaluating the value of a given state.
 ## Exemple of running
 - ![Flappy Bird Gameplay](images/Flappy_bird_playing_video-ezgif.com-optimize.gif)
 
+## Various experimentation
+- Firstly I experimented with Q-Learning learning with classic formula : [  Q[state,action] += alpha * (reward  + gamma * Q[new_state, new_action] - Q[state, action]) ] in another env [FrozenLake-v1] . I used sarsa method.
+- I experimented without CNN, just with states returns form Flappy_bird env.
+- I experimented off policy and on policy methods.
+- I experimented with CNN training and adjusting the hyperparameters with actor-critic model.
+
 ## Resources
 ### On-Policy vs Off-Policy
 -https://www.geeksforgeeks.org/on-policy-vs-off-policy-methods-reinforcement-learning/
