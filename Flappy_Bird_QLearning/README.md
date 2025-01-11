@@ -1,16 +1,7 @@
+# Flappy Bird Q-Learning and Convolutional Neural Network (CNN)
 
-## Resources
-### On-Policy vs Off-Policy
--https://www.geeksforgeeks.org/on-policy-vs-off-policy-methods-reinforcement-learning/
-### CNN
--https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
--https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns
--https://medium.com/analytics-vidhya/understanding-convolution-operations-in-cnn-1914045816d4
--https://towardsdatascience.com/exploring-feature-extraction-with-cnns-345125cefc9a
-### Actor-Critic
--https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
-
-![Flappy Bird CNN QLearning Diagram](images/Flappy_Bird_CNN_QLearning.drawio.png)rawio)
+### -Diagram of the Flappy Bird Q-Learning and CNN Architecture :
+![Flappy Bird CNN QLearning Diagram](images/Flappy_Bird_CNN_QLearning.drawio.png)
 
 # CNN Architecture and Training Details  
 
@@ -164,3 +155,14 @@ The **Critic Network** is responsible for evaluating the value of a given state.
 
 ## Exemple of running
 - ![Flappy Bird Gameplay](images/Flappy_bird_playing_video-ezgif.com-optimize.gif)
+
+## Resources
+### On-Policy vs Off-Policy
+-https://www.geeksforgeeks.org/on-policy-vs-off-policy-methods-reinforcement-learning/
+### CNN
+-https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+-https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns
+-https://medium.com/analytics-vidhya/understanding-convolution-operations-in-cnn-1914045816d4
+-https://towardsdatascience.com/exploring-feature-extraction-with-cnns-345125cefc9a
+### Actor-Critic
+-https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
